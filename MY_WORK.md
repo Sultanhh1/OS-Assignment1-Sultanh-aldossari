@@ -29,17 +29,17 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [Sultanh aldossari] |
+| **Student ID** | [445052131] |
+| **University Email** | [445052131]@std.psau.edu.sa |
+| **GitHub Username** | [Sultanhh1] |
+| **Repository Link** | [https://github.com/Sultanhh1/OS-Assignment1-Sultanh-aldossari] |
  
 ---
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: [https://drive.google.com/file/d/1RstzQyFYCSuhUQEgEtNOFIqzd6XxU6KU/view?usp=sharing]
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
@@ -129,69 +129,70 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [10 October , 2:00PM]
 **What I did**:
-
+Installed and connected the required programs
 **Details**:
-
+Downloaded GitHub desktop and updated my student ID , Then I downloaded Visual Studio Code and connected both tools together to prepare for working on the project
 **Challenges**:
-
+I did not know the purpose of each program or how to connect them together
 **Solution**:
-
+I organized my steps and started with the main program. After completing the login process, I downloaded the second program, which made connecting both programs easier
 **Time spent**:
-
+3 hours
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [10 October , 6:00PM]
 **What I did**:
-
+Added process priorities and displayed them in the program
 **Details**:
-
+Modified the Process class to include process priorities and updated the program to display them. I checked the output to make sure the priorities appeared correctly, then committed my changes to GitHub
 **Challenges**:
-
+I had difficulty getting the output to appear correctly. I also faced problems making my first commit and pushing it to GitHub.
 **Solution**:
-
+I searched for the output problem and found that it was related to my computer’s system. To solve the first commit problem, I searched for the error and fixed it step by step
+ This made the following commits easier to complete
 **Time spent**:
-
+2 hours
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 3 - [11 October , 12:PM]
 **What I did**:
-
+Added a counter to track context switches
 **Details**:
-
+Implemented a counter to track context switches between processes and connected the required steps to the code , then I ran the program to make sure the counter appeared correctly before committing the changes to GitHub
 **Challenges**:
-
+This feature was easy, but I needed to make sure that the number displayed in the output was correct.
 **Solution**:
-
+I reviewed the implementation steps and checked the result to confirm that the displayed number was correct.
 **Time spent**:
-
+2 hours
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [11 October , 3:00PM]
 **What I did**:
-
+Implemented process waiting-time tracking and a final summary table
 **Details**:
-
+Added waiting-time tracking for processes and created a final summary table to present the results , I ran the program and reviewed the table to make sure the processes and calculated numbers were correct, then committed the completed feature to GitHub
 **Challenges**:
-
+I had difficulty understanding whether the numbers displayed in the output were correct.
 **Solution**:
-
+I calculated the waiting times for each process using the required calculation method. This helped me confirm that the results in the program output were correct.
 **Time spent**:
-
+1 hour
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 5 - [11 October , 6:00PM]
 **What I did**:
-
+Worked on documenting the assignment
 **Details**:
-
+Started organizing the project documentation by working on the Development Log, Reflection, and Technical Answers sections. Reviewed the assignment requirements to make sure the documentation covered the required information
 **Challenges**:
-
+I needed to organize my work and information correctly because the assignment had many requirements and sections to complete.
 **Solution**:
-
+I reviewed the assignment requirements and followed them step by step, making sure to place the correct information in each section.
 **Time spent**:
-
+2 hour
 ---
 
 ### Entry 6 - [Optional - Date and Time]
@@ -211,14 +212,14 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
-
+**Total time spent on assignment**: [12 hours]
+I spent two days working on this assignment
 **Most challenging part**:
-
+The most challenging part was checking that the output was correct and that I followed the steps correctly after completing each task
 **Most interesting learning**:
-
+The most interesting thing I learned was how the calculations work and how to apply them correctly to get accurate results in the program output.
 **What I would do differently next time**:
-
+If I worked on this assignment again, I would spend more days and allow myself more time to complete it.
 ---
 
 # Part B: Reflection (0.5 mark)
@@ -237,7 +238,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[From this assignment, I learned more about how threads work in Java. I understood that Runnable is used to write the task, and Thread.start() is used to start the thread. I also learned that Thread.join() makes a thread wait until another thread finishes. Thread.sleep() pauses a thread for a short time. I learned that threads need to be managed while the program is running. Working on this project helped me understand how scheduling works. I also learned that checking the output is important to make sure the program works correctly.]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +246,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The most challenging part was making sure that the program output was correct after each feature. I checked the results after adding process priorities and the context switch counter. When I added waiting time tracking, I also checked the numbers in the summary table. Sometimes I was not sure if the results were correct, so I reviewed the steps again. This took some time, but it helped me understand the program better. I learned that checking the output is important when working on a programming assignment.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +254,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I solved the problems by working on the assignment step by step. After finishing each feature, I ran the program and checked the output. If I was not sure about the results, I reviewed the steps and checked the calculations again. When I had problems with GitHub, I searched for solutions and followed the instructions. I also checked the assignment requirements to make sure I did everything correctly. This helped me finish the features and understand the project better.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +262,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading is used in many applications that we use every day. For example, a web browser can load a page while the user does other things. A music player can play music while the user uses other parts of the application. Mobile apps can run tasks in the background without freezing the screen. In this assignment, I learned about scheduling and how to track context switches and waiting times. This helped me understand how an operating system manages tasks.]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +294,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[In my code, Process represents a simulated process, while Thread runs it. In addProcessToQueue(), I used new Thread(process) to create a thread for each process. Threads share memory and usually need fewer resources than separate processes. We used threads to run the simulated processes in our Round-Robin scheduler.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,15 +306,21 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[In Round-Robin scheduling, if a process does not finish within its time quantum, it goes back to the ready queue. In my output, P5 has a burst time of 9414ms and a time quantum of 4000ms. P5 was re-queued two times before it finished executing. This allows other processes to get CPU time instead of letting one process use the CPU until it finishes. It makes scheduling fairer for all processes.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[▶️ P5 executing quantum [4000ms] 
+  ⚡ Quantum progress: 100%
+  ⏸ P5 completed quantum 4000ms │ Overall progress: 42%
+     Remaining time: 5414ms
+  ↻ P5 yields CPU for context switch
+
+  ➕ P5 added to ready queue │ Burst time: 9414ms │ Priority: 6]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[P5 needed more than one time quantum to finish because its burst time was 9414ms. After using 4000ms, it had 5414ms remaining, and after the next turn, it had 1414ms remaining. It returned to the ready queue twice and finished during its third turn.]
 
 ## Question 3: Thread Lifecycle
 
@@ -323,15 +330,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [P1 is created using new Thread(process) in addProcessToQueue()]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [P1 is ready to run when currentThread.start() is called]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [P1 runs its run() method to execute its time quantum]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [P1 pauses when Thread.sleep(stepTime) is called. The main thread waits for P1 to finish using currentThread.join()]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [ P1 reaches this state when its run() method finishes]
 
 ## Question 4: Real-World Applications
 
@@ -341,32 +348,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [Running Multiple Applications]
 
 **Description**:
-[Describe the real-world scenario.]
+[An operating system can use Round-Robin to share CPU time between applications, such as a browser, a music player, and a text editor.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Each application gets a chance to use the CPU. Context switches allow the system to move between applications fairly.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [ Multiplayer Online Game]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[A game server can use Round-Robin to give processing time to tasks for different players, such as updating their movements.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Each player’s tasks get a chance to run, which can help the game respond smoothly when many players are active.]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.How Round-Robin scheduling gives each process a turn to use the CPU.
+2.How context switches happen when the CPU moves between processes.
+3.How to calculate and track process waiting time and turnaround time.
 
 **Concepts I need to study more:**
-1.
-2.
+1.How Java threads work and how their lifecycle changes.
+2.How to calculate waiting time and turnaround time more accurately.
 
 ---
 
