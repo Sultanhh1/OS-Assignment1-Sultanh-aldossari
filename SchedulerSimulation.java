@@ -157,6 +157,10 @@ class Process implements Runnable {
 }
 
 public class SchedulerSimulation {
+
+    // Feature 2: Count context switches
+    private static int contextSwitchCount = 0;
+
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -233,6 +237,9 @@ public class SchedulerSimulation {
                 "╚════════════════════════════════════════════════════════════════════════════════╝" +
                 Colors.RESET + "\n");
 
+        // Feature 2: Initialize previousProcessName to track context switches
+        String previousProcessName = null;
+
         // Loop to manage the scheduling of processes
         while (!processQueue.isEmpty()) {
             // Get the next thread from the queue (FIFO)
@@ -254,6 +261,16 @@ public class SchedulerSimulation {
             }
             System.out.println(Colors.BRIGHT_WHITE + "]" + Colors.RESET);
             System.out.println(Colors.BOLD + Colors.MAGENTA + "└" + "─".repeat(79) + Colors.RESET + "\n");
+
+            // Feature 2: Count context switches between different processes
+            Process scheduledProcess = processMap.get(currentThread);
+
+            if (previousProcessName != null &&
+                    !previousProcessName.equals(scheduledProcess.getName())) {
+                contextSwitchCount++;
+            }
+
+            previousProcessName = scheduledProcess.getName();
 
             // Start the thread, which will run the process for one time quantum
             currentThread.start();
@@ -285,6 +302,11 @@ public class SchedulerSimulation {
                 }
             }
         }
+
+        // Feature 2: Display total context switches
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW +
+                "Total Context Switches: " + contextSwitchCount +
+                Colors.RESET + "\n");
 
         // End of the scheduler simulation
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN +
